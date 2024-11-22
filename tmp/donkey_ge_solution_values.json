@@ -1,22 +1,72 @@
 {
  "solution_values": [
   [
-   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]",
-   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]",
-   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]",
-   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]"
+   "[\"NCT\", \"NCT\", \"NCT\"]",
+   "[\"NCT\", \"NCT\", \"NCT\"]"
   ],
   [
-   "lambda h, i: \"D\"",
-   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]",
-   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]",
-   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]"
+   "[\"FTZ\", \"NCT\", \"NCT\"]",
+   "[\"NCT\", \"NCT\", \"NCT\"]"
   ],
   [
-   "lambda h, i: \"D\"",
-   "lambda h, i: [\"C\", \"D\", \"C\", \"C\"][i]",
-   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]",
-   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]"
+   "[\"FTZ\", \"NCT\", \"NCT\"]",
+   "[\"FTZ\", \"NCT\", \"NCT\"]"
+  ],
+  [
+   "[\"FTZ\", \"NCT\", \"NCT\"]",
+   "[\"FTZ\", \"NCT\", \"NCT\"]"
+  ],
+  [
+   "[\"FTZ\", \"NCT\", \"NCT\"]",
+   "[\"FTZ\", \"NCT\", \"NCT\"]"
+  ],
+  [
+   "[\"FTZ\", \"NCT\", \"NCT\"]",
+   "[\"FTZ\", \"NCT\", \"NCT\"]"
+  ],
+  [
+   "[\"FTZ\", \"NCT\", \"NCT\"]",
+   "[\"FTZ\", \"NCT\", \"NCT\"]"
+  ],
+  [
+   "[\"FTZ\", \"NCT\", \"NCT\"]",
+   "[\"FTZ\", \"NCT\", \"NCT\"]"
+  ],
+  [
+   "[\"FTZ\", \"NCT\", \"NCT\"]",
+   "[\"FTZ\", \"NCT\", \"NCT\"]"
+  ],
+  [
+   "[\"FTZ\", \"NCT\", \"NCT\"]",
+   "[\"FTZ\", \"NCT\", \"NCT\"]"
+  ],
+  [
+   "[\"FTZ\", \"NCT\", \"NCT\"]",
+   "[\"FTZ\", \"NCT\", \"NCT\"]"
+  ],
+  [
+   "[\"FTZ\", \"NCT\", \"FTZ\"]",
+   "[\"FTZ\", \"NCT\", \"NCT\"]"
+  ],
+  [
+   "[\"FTZ\", \"NCT\", \"FTZ\"]",
+   "[\"FTZ\", \"NCT\", \"FTZ\"]"
+  ],
+  [
+   "[\"FTZ\", \"NCT\", \"FTZ\"]",
+   "[\"FTZ\", \"FTZ\", \"NCT\"]"
+  ],
+  [
+   "[\"FTZ\", \"FTZ\", \"NCT\"]",
+   "[\"FTZ\", \"FTZ\", \"NCT\"]"
+  ],
+  [
+   "[\"FTZ\", \"FTZ\", \"NCT\"]",
+   "[\"FTZ\", \"FTZ\", \"NCT\"]"
+  ],
+  [
+   "[\"FTZ\", \"FTZ\", \"FTZ\"]",
+   "[\"FTZ\", \"FTZ\", \"NCT\"]"
   ]
  ]
 }
