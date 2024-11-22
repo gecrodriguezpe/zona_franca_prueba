@@ -1,0 +1,20 @@
+start: strategy
+
+strategy: "lambda h, i: " fixed
+        | "lambda h, i: " adaptive
+
+fixed: varying "[" "i" "]"
+     | cooperate
+     | defect
+
+varying: "[" quoted_choice "," " " quoted_choice "," " " quoted_choice "," " " quoted_choice "]"
+
+cooperate: "\"C\""
+defect: "\"D\"" 
+
+adaptive: quoted_choice " " "if" " " "h" "[" "i" "]" " " "==" " " quoted_choice " " "else" " " quoted_choice
+
+quoted_choice: "\"C\"" | "\"D\""
+
+%import common.WS
+%ignore WS

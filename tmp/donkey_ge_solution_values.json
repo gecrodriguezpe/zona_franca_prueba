@@ -1,0 +1,22 @@
+{
+ "solution_values": [
+  [
+   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]",
+   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]",
+   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]",
+   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]"
+  ],
+  [
+   "lambda h, i: \"D\"",
+   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]",
+   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]",
+   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]"
+  ],
+  [
+   "lambda h, i: \"D\"",
+   "lambda h, i: [\"C\", \"D\", \"C\", \"C\"][i]",
+   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]",
+   "lambda h, i: [\"C\", \"C\", \"C\", \"C\"][i]"
+  ]
+ ]
+}

@@ -1,0 +1,10 @@
+rules: trade
+     | rules trade
+
+trade: "Trade(" person "," person "," xvalue "," yvalue ")"
+
+person: "Alice" | "Bob" | "Charles"
+xvalue: "Xvalue(" number ")"
+yvalue: "Yvalue(" number ")"
+
+number: "NUMBER"
