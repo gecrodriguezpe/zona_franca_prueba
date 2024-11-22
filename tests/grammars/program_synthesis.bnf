@@ -1,2 +1,0 @@
-<code> ::= if i == <character> or i == <character>:
-<character> ::= 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g'
