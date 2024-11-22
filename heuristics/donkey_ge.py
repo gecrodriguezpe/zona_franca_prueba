@@ -232,8 +232,8 @@ class Individual(object):
 
         if genome is None:
             self.genome: List[int] = [
-                #random.randint(0, Individual.codon_size) for _ in range(Individual.max_length)
-                0 for _ in range(Individual.max_length)
+                random.randint(0, Individual.codon_size) for _ in range(Individual.max_length)
+                #0 for _ in range(Individual.max_length)
             ]
             #self.genome = [867, 821, 782, 64, 261, 120, 507, 779, 460, 483]
         else:
