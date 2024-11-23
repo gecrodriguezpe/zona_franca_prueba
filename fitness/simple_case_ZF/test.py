@@ -1,13 +1,18 @@
 from typing import List, Dict, Tuple
+from pathlib import Path 
 
 import itertools
 from accounting_templates import plantillas_contables_1
 from utils import cargar_plantillas_cuentas
 import classes as cl
 
+# TODO: Usar pathlib para manejar todas las rutas
+
+
+PATH = str((Path(__file__).resolve()).parent)
 
 # Ruta de la plantilla contable
-ruta = r"C:\Users\andre\OneDrive\Documentos\Repositories\MIT_Tax_Avoidance\FTZ_Model\directorio_cuentas.xlsx"
+ruta = r"/home/germankux/Documents/MIT/RA/GSF/FTZ_Model"
 
 # Cargar la plantilla contable
 plantilla_1 = cargar_plantillas_cuentas(ruta)
@@ -33,7 +38,7 @@ dict_precios_2 = {
 
 ### Instanciar Agentes de NCT y ZF
 planta_NCT = cl.NCT("NCT", plantilla_1, plantillas_contables_1)
-planta_ZF = cl.ZF("ZF", plantilla_1, plantillas_contables_1)
+planta_ZF = cl.ZF("ZF", plantilla_1, plantillas_contables_1PATH = str((Path(__file__).resolve()).parent))
 
 
 lista_planes = list(itertools.product([0, 1], repeat=3))

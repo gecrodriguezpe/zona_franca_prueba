@@ -1,10 +1,8 @@
 import pandas as pd
+from pathlib import Path
 
-#! TODO usar Pathlib
-
-
-ruta = r"C:\Users\andre\OneDrive\Documentos\Repositories\MIT_Tax_Avoidance\FTZ_Model\directorio_cuentas.xlsx"
-
+PATH = str((Path(__file__).resolve()).parent)
+excel_file_name = r"/directorio_cuentas.xlsx"
 
 def cargar_plantillas_cuentas(archivo_excel: str) -> dict:
     """
@@ -18,7 +16,7 @@ def cargar_plantillas_cuentas(archivo_excel: str) -> dict:
     plantillas_cuentas = {}
 
     # Iterar sobre las filas del DataFrame
-    for _, row in df.iterrows():
+    for _, row in df.iterrows():    
         codigo_cuenta = row["codigo_cuenta"]
         codigo_tipo = row["tipo_de_cuenta "]
         cuenta = row["cuenta"]
@@ -33,4 +31,4 @@ def cargar_plantillas_cuentas(archivo_excel: str) -> dict:
     return plantillas_cuentas
 
 
-df_test = cargar_plantillas_cuentas(ruta)
+df_test = cargar_plantillas_cuentas(PATH + excel_file_name)

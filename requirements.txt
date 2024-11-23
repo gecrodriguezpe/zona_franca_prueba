@@ -11,3 +11,4 @@ black
 flake8
 mypy
 z3-solver
+pandas
