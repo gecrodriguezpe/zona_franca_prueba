@@ -2,13 +2,19 @@ import tkinter as tk
 from tkinter import ttk
 from typing import List, Dict, Tuple
 import itertools
+from pathlib import Path 
+
 import classes as cl
 from utils import cargar_plantillas_cuentas
 from accounting_templates import plantillas_contables_1
 
-# Ruta de la plantilla contable
-ruta = r"C:\Users\andre\OneDrive\Documentos\Repositories\MIT_Tax_Avoidance\FTZ_Model\directorio_cuentas.xlsx"
-plantilla_1 = cargar_plantillas_cuentas(ruta)
+PATH = str((Path(__file__).resolve()).parent)
+excel_file_name = r"/directorio_cuentas.xlsx"
+
+# Cargar plantilla contable 
+plantilla_1 = cargar_plantillas_cuentas(PATH + excel_file_name)
+
+# TODO Revisar la importación del script classes 
 
 # Agentes
 planta_NCT = cl.NCT("NCT", plantilla_1, plantillas_contables_1)
