@@ -22,7 +22,7 @@ class SimpleSum(FitnessFunction):
     def __init__(self, param: Dict[str, Any]) -> None:
         """ Initialize object
         """
-        self.dct = {"NCT": 1, "FTZ": 2}
+        self.dct = ast.literal_eval(param["pagos"])
 
     def __call__(self, fcn_str: str, cache: Dict[str, float]) -> float:
         """ Returns the sum of the phenotype (fcn_str).

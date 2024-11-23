@@ -271,11 +271,9 @@ class BienFinal(Good):
         super().__init__(name, price, insumos, "bien_final")
 
 
-# -------------- Clase Libro Contable
-
-
 # -------------- Clase Agente ----------------
 
+#  TODO: Agregar la tasa del impuesto en el init
 
 class Agent(ABC):
     """

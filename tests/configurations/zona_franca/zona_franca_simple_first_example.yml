@@ -11,3 +11,4 @@ integer_input_element_max: 1000
 bnf_grammar: "tests/grammars/zona_franca/zona_franca_simple_first_example.bnf"
 fitness_function:
     name: "fitness.fitness.SimpleSum"
+    pagos: "{'NCT': 1, 'FTZ': 2}"

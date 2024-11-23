@@ -5,6 +5,7 @@ dependencies:
   - _libgcc_mutex=0.1
   - _openmp_mutex=5.1
   - alabaster=0.7.16
+  - atomicwrites=1.4.0
   - attrs=24.2.0
   - babel=2.11.0
   - black=24.8.0
@@ -44,8 +45,10 @@ dependencies:
   - intel-openmp=2023.1.0
   - jinja2=3.1.4
   - jpeg=9e
+  - js2py=0.74
   - kiwisolver=1.4.4
   - krb5=1.20.1
+  - lark=1.1.2
   - lcms2=2.12
   - ld_impl_linux-64=2.40
   - lerc=3.0
@@ -114,6 +117,7 @@ dependencies:
   - pycodestyle=2.12.1
   - pyflakes=3.2.0
   - pygments=2.15.1
+  - pyjsparser=2.7.1
   - pyparsing=3.2.0
   - pyqt=5.15.10
   - pyqt5-sip=12.13.0
@@ -127,6 +131,7 @@ dependencies:
   - qt-main=5.15.2
   - readline=8.2
   - recommonmark=0.6.0
+  - regex=2024.9.11
   - requests=2.32.3
   - rich=13.7.1
   - setuptools=75.1.0
@@ -149,6 +154,7 @@ dependencies:
   - typing-extensions=4.11.0
   - typing_extensions=4.11.0
   - tzdata=2024b
+  - tzlocal=5.2
   - unicodedata2=15.1.0
   - urllib3=2.2.3
   - wheel=0.44.0
